@@ -1,6 +1,6 @@
 export const getGifts = async (category) => {
   const baseUrl = "https://api.giphy.com/v1/gifs/search";
-  const apiKey = "key";
+  const apiKey = "hqr3aNgMI8MYKHna674D8MuB0qR2NM3b";
   const limit = 10;
   const encodedCategory = encodeURI(category);
 
